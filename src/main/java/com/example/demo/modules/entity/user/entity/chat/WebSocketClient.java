@@ -1,4 +1,4 @@
-package com.example.demo.modules.user.entity.chat;
+package com.example.demo.modules.entity.user.entity.chat;
 
 
 import javax.websocket.Session;

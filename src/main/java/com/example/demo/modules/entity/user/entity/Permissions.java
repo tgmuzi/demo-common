@@ -1,4 +1,4 @@
-package com.example.demo.modules.user.entity;
+package com.example.demo.modules.entity.user.entity;
 
 public class Permissions {
     private String id;

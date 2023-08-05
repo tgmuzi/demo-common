@@ -1,4 +1,4 @@
-package com.example.demo.modules.user.entity;
+package com.example.demo.modules.entity.user.entity;
 
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableField;

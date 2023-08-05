@@ -1,7 +1,6 @@
 package com.example.demo.utils;
 
 import com.example.demo.modules.excel.ExcelData;
-import com.example.demo.modules.user.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.ss.usermodel.*;
@@ -147,19 +146,6 @@ public class ExcelUtil {
 
     //测试导入
     public static void main(String[] args) {
-        try {
-            String fileName = "G:/test.xlsx";
-            List<Object[]> list = importExcel(fileName);
-            for (int i = 0; i < list.size(); i++) {
-                User user = new User();
-                user.setUserName((String) list.get(i)[0]);
-                user.setPassword((String) list.get(i)[1]);
-                user.setCaptcha((String) list.get(i)[2]);
-                System.out.println(user.toString());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
 }
